@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './styles/Main.css';
+import Nav from './components/Nav';
 
 
 
@@ -15,6 +16,7 @@ class Main extends Component {
         <p className="App-intro">
           To get started, edit <code>src/Main.jsx</code> and save to reload.
         </p>
+        <Nav />
       </div>
     );
   }
